@@ -5,112 +5,125 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Al-amin: Frontend Developer</title>
 </head>
 
 <body>
     <header>
-        <div class="header-left-side">
-            <h1>Stay Focused on <br><span>Mission 2022</span></h1>
-            <p>lorem20</p>
-            <div class="link-btn">Explore Now</div>
-            <p>Scroll down to explore more about us</p>
-        </div>
-        <div class="header-right-side">
-            <img src="img/profile.png" alt="">
+        <div class="header-container container flex">
+            <div class="header-left-side two-third-flex">
+                <h1>Stay Focused on <br><span>Mission 2022</span></h1>
+                <p><strong>Become a Web Developer</strong></p>
+                <div class="button">
+                    <a href="" target="_blank" class="link-btn">Explore Now</a>
+                </div>
+                <small>Scroll down to know more about me</small>
+            </div>
+            <div class="header-right-side one-third-flex">
+                <div class="img">
+                    <img src="img/profile.png" alt="">
+                </div>
+            </div>
         </div>
     </header>
     <main>
-        <section class="mission">
-            <h2>My Mission in 2022</h2>
-            <div class="mission-container">
+        <section class="mission container">
+            <h2 class="center">My Mission in <span>2022</span></h2>
+            <div class="mission-container flex">
                 <div>
-                    <h3>Mission</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum culpa veniam necessitatibus eius
-                        laudantium mollitia ad, animi voluptatum quod impedit.
+                    <img src="img/illustrator-1.png" alt="" class="mission-icon">
+                    <h3 class="center">Mission</h3>
+                    <p class="center">
+                        To Become a Frontend Web-developer in June, 2022.
                     </p>
                 </div>
                 <div>
-                    <h3>Vision</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum culpa veniam necessitatibus eius
-                        laudantium
-                        mollitia ad, animi voluptatum quod impedit.
+                    <img src="img/illustrator-2.png" alt="" class="mission-icon">
+                    <h3 class="center">Vision</h3>
+                    <p class="center">
+                        To Become a Fullstack Web-developer in 2022.
                     </p>
                 </div>
                 <div>
-                    <h3>Goals</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum culpa veniam necessitatibus eius
-                        laudantium
-                        mollitia ad, animi voluptatum quod impedit.
+                    <img src="img/illustrator-3.png" alt="" class="mission-icon">
+                    <h3 class="center">Goals</h3>
+                    <p class="center">
+                        To Master Frontend & Backend Web Development.
                     </p>
                 </div>
             </div>
         </section>
-        <section class="about">
+        <section class="about container ">
             <div class="about-container">
-                <div>
-                    <div>
-                        <img src="img/coding.png" alt="">
+                <div class="flex margin-bottom">
+                    <div class="one-third-flex">
+                        <img src="img/work-hard.jpg" alt="">
                     </div>
-                    <div>
-                        <h2>Develop <br> Without Limit</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, sit exercitationem iste
-                            reprehenderit est doloribus. Magni quam fugit laborum hic.</p>
-                        <a href="" class="link-btn">Read the Documentation</a>
+                    <div class="two-third-flex paddingAll">
+                        <h2>Work <br>Hard</h2>
+                        <p>I've committed myself to complete my web-development mission. Everyday I spend six to eight
+                            hours in web-development related learning and practising to achieve my goals.</p>
+                        <div class="button"><a href="" class="link-btn">Read more</a></div>
                     </div>
                 </div>
-                <div>
-                    <div>
-                        <h2>Develop <br> Without Limit</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, sit exercitationem iste
-                            reprehenderit est
-                            doloribus. Magni quam fugit laborum hic.</p>
-                        <a href="" class="link-btn">Read the Documentation</a>
+                <div class="flex">
+                    <div class="two-third-flex padding-topRight">
+                        <h2>Balance<br>Work & Life</h2>
+                        <p>It's important to maintain a healthy routine which nurture all aspects of life and boost work
+                            performance. So, I try to maintain regularly healthy diet, exercising, spend some time with
+                            family & friends as well as spritual activities.</p>
+                        <div class="button"><a href="" class="link-btn">Read More</a></div>
                     </div>
-                    <div>
-                        <img src="img/project.png" alt="">
+                    <div class="one-third-flex">
+                        <img src="img/work-life.jpg" alt="">
                     </div>
                 </div>
             </div>
         </section>
-        <section class="contact">
-            <div class="contact-container">
-                <div>
+        <section class="contact container">
+            <div class="contact-container flex">
+                <div class="two-third-flex">
                     <h2>Get In Touch</h2>
-                    <p>I'm always open to discuss your project and talk about new things</p>
-                    <div>
+                    <p>I'd like to connect and talk with people who have interest or expertise in web development. If
+                        you have any
+                        suggestion or just want to say hi, feel free to reach out me.</p>
+                    <div class="flex">
                         <div>
-                            <p>Mail me at</p>
-                            <p>alaminseiyal2@gmail.com</p>
+                            <p><b>Mail me at</b></p>
+                            <small>alaminseiyal2@gmail.com</small>
                         </div>
-                        <div>
-                            <p>Follow me</p>
-                            <i></i>
-                            <i></i>
-                            <i></i>
-                            <i></i>
-                            <i></i>
+                        <div class="social-media">
+                            <p><b>Follow me</b></p>
+                            <a href=""><i class="fab fa-github"></i></a>
+                            <a href=""><i class="fab fa-codepen"></i></a>
+                            <a href=""><i class="fab fa-linkedin"></i></a>
+                            <a href=""><i class="fab fa-twitter-square"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-facebook-square"></i></a>
                         </div>
                     </div>
                 </div>
-                <div>
+                <div class="form one-third-flex">
                     <form action="">
                         <input type="text" name="" id="" placeholder="Your name">
                         <input type="email" placeholder="Your email address">
-                        <input type="number" placeholder="Your budget(optional)">
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Your project description"></textarea>
-                        <input type="submit" value="Submit">
+                        <textarea name="" id="" cols="30" rows="5" placeholder="Description"></textarea>
+                        <input type="submit" value="Submit" class="form-submit">
                     </form>
                 </div>
             </div>
         </section>
     </main>
     <footer>
-        <h2>Mission <span>2022</span></h2>
-        <p>Hard work, Perseverance and Determination for 2022</p>
+        <div class="container">
+            <h2>Mission <span>2022</span></h2>
+            <p>Hard work, Perseverance and Determination for 2022</p>
+
+        </div>
     </footer>
 </body>
 
